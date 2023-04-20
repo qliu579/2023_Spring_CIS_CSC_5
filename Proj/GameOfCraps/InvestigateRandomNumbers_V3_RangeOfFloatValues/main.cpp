@@ -29,8 +29,8 @@ int main(int argc, char** argv) {
     
     //Initialize variables
     nLoops=100000;
-    scale=10;
-    shift=5;
+    scale=0.5;
+    shift=1.2;
     max=min=(1.0f*rand()/MAXRAND)*(scale)+shift;
     
     //Process, map inputs to outputs

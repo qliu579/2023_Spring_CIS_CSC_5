@@ -1,8 +1,9 @@
 Number of Games Played =   10000000
-Number of Games Won    =    4922864
-Number of Games Lost   =    5077136
+Number of Games Won    =    4930227
+Number of Games Lost   =    5069773
 Number of Games Played =   10000000
-Percentage of Games Won    = 49.23%
-Percentage of Games Lost   = 50.77%
-Maximum number of rolls/game = 57
+Percentage of Games Won    = 49.30%
+Percentage of Games Lost   = 50.70%
+Maximum number of rolls/game = 55
 Average number of rolls/game = 3.38
+The standard deviation = 2.96
