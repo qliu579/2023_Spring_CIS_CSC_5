@@ -20,7 +20,7 @@ const int COLS=100,ROWS=10;
 //Function Prototypes
 void init(fstream &,int &,int &,char[][COLS],int [][ROWS]);
 void sum(const char[][COLS],int,int,int[][ROWS]);
-void dspRlts(int,int[][ROWS]);
+void dspRlts(int,const int[][ROWS]);
 
 //Execution Starts Here
 int main(int argc, char** argv){
@@ -49,7 +49,7 @@ int main(int argc, char** argv){
 }
 
 //Function Implementations
-void dspRlts(int nMonths,int summary[][ROWS]){
+void dspRlts(int nMonths,const int summary[][ROWS]){
     for(int row=0;row<nMonths;row++){
         for(int col=0;col<nMonths;col++){
             cout<<summary[row][col]<<" ";
